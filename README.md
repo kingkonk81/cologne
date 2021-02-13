@@ -1,6 +1,6 @@
 # COLOGNE
 
-The directory contains code for the COLOGNE suite of algorithms (Coordinated Local Graph Neighborhood Sampling)
+The directory contains code for the COLOGNE suite of algorithms (Coordinated Local Graph Neighborhood Sampling): https://arxiv.org/abs/2102.04770
 
 The code is organized in several notebooks.
 
