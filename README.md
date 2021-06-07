@@ -8,7 +8,7 @@ One has to run following steps in order to reproduce the results in the paper:
 
 1. Download the graph data for Cora (https://linqs-data.soe.ucsc.edu/public/lbc/cora.tgz), Citeseer (https://linqs-data.soe.ucsc.edu/public/lbc/citeseer.tgz), Pubmed(https://linqs-data.soe.ucsc.edu/public/Pubmed-Diabetes.tgz), HomoSapiens, or PPI, (https://snap.stanford.edu/node2vec/Homo_sapiens.mat), Wikipedia (https://snap.stanford.edu/node2vec/POS.mat) and BlogCatalog (https://figshare.com/articles/dataset/BlogCatalog_dataset/11923611). Extract the graphs in the corresponding folders in Graphs.
 
-2. Navigate to src. Preprocess the graphs by running python **preprocess_graph.py --graphname <the name of the graph\>**. The default name is Cora. There is also the option --threshold which specifies how many edges to delete (used for link predictions)
+2. Navigate to src. Preprocess the graphs by running **python preprocess_graph.py --graphname <the name of the graph\>**. The default name is Cora. There is also the option --threshold which specifies how many edges to delete (used for link predictions)
 The above code is based on several Jupyter notebooks which are also provided. They can be easier to work with.
 
 3. Generate embeddings by running generate_embeddings running 
