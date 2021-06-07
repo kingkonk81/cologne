@@ -1,7 +1,0 @@
-label=Case_Based
-label=Rule_Learning
-label=Theory
-label=Reinforcement_Learning
-label=Neural_Networks
-label=Genetic_Algorithms
-label=Probabilistic_Methods
